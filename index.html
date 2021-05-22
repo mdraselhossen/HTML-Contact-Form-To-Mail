@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form to Mail</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+  <div class="container">
+    <form action="https://formspree.io/f/myyleorq" method="POST" id="my-form">
+
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
